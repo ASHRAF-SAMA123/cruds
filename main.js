@@ -136,14 +136,14 @@ function updatedata(i){
 }
 
 
-// let searchmood = "title"
+    let searchmood = "title"
 
-// function getsearchmood(id){
-// let search=document.getElementById("search")
-//  if(searchmood = "title"){
-//     searchmood = "title"
-//  }else{
-//     searchmood = "category"
-//  }
-//  search.focus
-// }
+    function getsearchmood(id){
+    let search=document.getElementById("search")
+    if(searchmood = "title"){
+        searchmood = "title"
+    }else{
+        searchmood = "category"
+    }
+    search.focus
+    }
