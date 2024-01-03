@@ -29,7 +29,7 @@
         </div>
         <div class="output">
            <div class="SEARCHBOX">
-            <input type="text"  id="search" placeholder="search">
+            <input type="text" onkeyup="searchdata(this.value)"  id="search" placeholder="search">
             <div class="btnSearch"> 
                 <button onclick="getsearchmood(this.id)" id="searchTitle">search by title</button>
                 <button onclick="getsearchmood(this.id)" id="searchCategorg">search by Categorg</button>
@@ -52,11 +52,8 @@
                 <th>delate</th>
             </tr>
             <tbody id="tbody">
-           
             </tbody>
            </table>
-
-
         </div>
 
     </div>
